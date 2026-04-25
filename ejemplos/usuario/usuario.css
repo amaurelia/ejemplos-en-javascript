@@ -1,0 +1,57 @@
+
+body {
+    background-color: rgb(233, 223, 237)!important;
+}
+
+.d-flex {
+    display: flex !important;
+    flex-wrap: wrap!important;
+    justify-content: center!important;
+}
+
+.centrado {
+    text-align: center;
+}
+
+.naranjo {
+    color: rgb(255, 188, 24);
+}
+
+.celeste {
+    background-color: deepskyblue !important;
+    color: white !important;
+    border: none !important;
+}
+
+.rosa {
+    background-color: pink !important;
+    color: black !important;
+    border: none !important;
+}
+
+.card {
+    background: linear-gradient(200deg, #ced4f7, #ffffff);
+    border-radius: 20px!important;
+}
+
+.celesteClaro {
+    --bs-bg-opacity: 1;
+    background-color: rgb(161 208 255) !important;
+}
+
+.layoutPrincipal {
+    display: flex;
+    align-items: flex-start;
+}
+
+.menuLateralIzquierdo {
+    background-color: darkseagreen;
+    height: -webkit-fill-available;
+    width: 200px;
+    flex-shrink: 0;
+}
+
+.contenidoPrincipal {
+    flex: 1;
+    padding: 1rem;
+}
